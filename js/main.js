@@ -47,7 +47,7 @@ $('#pause').click(function (){
 });
 
 //Stop Button
-$('#pause').click(function (){
+$('#stop').click(function (){
 	audio.pause ();
 	audio.currentTime = 0;
 	$('#pause').hide();
