@@ -35,7 +35,7 @@ $('#play').click(function (){
 	audio.play ();
 	$('#play').hide();
 	$('#pause').show();
-	$('#duration').fadeln(400);
+	$('#duration').fadeIn(400);
 	showDuration();
 });
 
