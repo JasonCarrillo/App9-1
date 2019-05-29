@@ -68,7 +68,7 @@ $('#playlist li').click(function (){
 
 //Volume Control
 $('#volume').change(function (){
-	audio.colume = parseFloat(this.value/10);
+	audio.volume = parseFloat(this.value/10);
 });
 
 //Time Duration
